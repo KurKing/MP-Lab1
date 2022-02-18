@@ -55,7 +55,7 @@ def main():
             if tempWordIndex < wordLength:
                 goto .createTempWord
             words.append(tempWord)
-        word = [0]*20
+        word = [0]*30
         lastSymbolIndex = 0
 
     i += 1
