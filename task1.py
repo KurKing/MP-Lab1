@@ -30,7 +30,7 @@ def main():
     i = 0
 
     label .dividingFileStringInWords
-    if string[i] != ' ' and string[i] != '\n':
+    if string[i] != '\n' and string[i] != ' ' and string[i] != '.' and string[i] != ',' and string[i] != '?' and string[i] != '!':
         word[lastSymbolIndex] = string[i]
         lastSymbolIndex += 1
         if i == stringLength - 1:
