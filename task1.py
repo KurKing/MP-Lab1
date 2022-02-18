@@ -25,7 +25,7 @@ def main():
     # dividing file string into words
     words = [0]*(stringLength//3)
     words = []
-    word = [0]*20
+    word = [0]*30
     lastSymbolIndex = 0
     i = 0
 
